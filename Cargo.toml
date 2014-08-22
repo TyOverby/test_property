@@ -1,5 +1,9 @@
 [package]
 
-name = "property_test"
+name = "test_property"
 version = "0.0.1"
 authors = ["Ty Overby <ty@pre-alpha.com>"]
+
+[lib]
+name = "test_property"
+path = "./src/lib.rs"
